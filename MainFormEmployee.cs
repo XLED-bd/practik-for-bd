@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class Form1 : Form
+    public partial class MainFormEmployee : Form
     {
-        public Form1()
+        public MainFormEmployee()
         {
             InitializeComponent();
         }
-
-        
     }
 }
