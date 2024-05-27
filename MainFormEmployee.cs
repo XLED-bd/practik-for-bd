@@ -23,5 +23,33 @@ namespace test
             cForm.Show();
             this.Hide();
         }
+
+        private void btn_acc_Click(object sender, EventArgs e)
+        {
+            var cForm = new AccForm();
+            cForm.Show();
+            this.Hide();
+        }
+
+        private void btn_tran_Click(object sender, EventArgs e)
+        {
+            var cForm = new TranForm();
+            cForm.Show();
+            this.Hide();
+        }
+
+        private void btn_loans_Click(object sender, EventArgs e)
+        {
+            var cForm = new LoanForm();
+            cForm.Show();
+            this.Hide();
+        }
+
+        private void btn_loans_tran_Click(object sender, EventArgs e)
+        {
+            var cForm = new TranLoanForm();
+            cForm.Show();
+            this.Hide();
+        }
     }
 }
