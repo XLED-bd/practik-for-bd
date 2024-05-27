@@ -13,7 +13,7 @@ namespace test
 {
     public partial class LoginForm : Form
     {
-        private string connectionString = "Host=localhost:5432;Username=postgres;Password=root;Database=bank2";
+        private string connectionString = "Host=localhost:5432;Username=postgres;Password=root;Database=bank";
 
         public LoginForm()
         {

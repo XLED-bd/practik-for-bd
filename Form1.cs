@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace test
 {
-    public partial class MainFormEmployee : Form
+    public partial class ClientsForm : Form
     {
-        public MainFormEmployee()
+        public ClientsForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var cForm = new ClientsForm();
-            cForm.Show();
-            this.Hide();
         }
     }
 }
